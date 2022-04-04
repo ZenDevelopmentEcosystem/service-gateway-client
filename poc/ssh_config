@@ -1,0 +1,19 @@
+Host servicegwd-client
+    Hostname 10.0.0.32
+    User client
+    Port 2222
+    IdentityFile ./keys/client
+    IdentitiesOnly yes
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    LogLevel ERROR
+
+Host servicegwd-admin
+    Hostname 10.0.0.32
+    User client
+    Port 2222
+    IdentityFile ./keys/admin
+    IdentitiesOnly yes
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    LogLevel ERROR
